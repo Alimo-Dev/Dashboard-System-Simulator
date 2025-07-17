@@ -10,6 +10,11 @@ namespace Dashboard_System_Simulator
     {
         static void Main(string[] args)
         {
+            int Opration = 0;
+            while (Opration != 3)
+            {
+
+            }
         }
     }
 }
