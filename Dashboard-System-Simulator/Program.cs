@@ -10,10 +10,23 @@ namespace Dashboard_System_Simulator
     {
         static void Main(string[] args)
         {
-            int Opration = 0;
-            while (Opration != 3)
+            int OprationNumber = 0;
+            while (OprationNumber != 3)
             {
+                switch (OprationNumber)
+                {
+                    case 1:
 
+                        break;
+
+                    case 2:
+
+                        break;
+
+                    case 3:
+
+                        break;
+                }
             }
         }
     }
