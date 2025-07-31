@@ -19,9 +19,26 @@ namespace Dashboard_System_Simulator
 
         static void Main(string[] args)
         {
-            int Opration = 0;
-            while (Opration != 3)
+            int OprationNumber = 0;
+            while (OprationNumber != 3)
             {
+<<<<<<< HEAD
+=======
+                switch (OprationNumber)
+                {
+                    case 1:
+
+                        break;
+
+                    case 2:
+
+                        break;
+
+                    case 3:
+
+                        break;
+                }
+>>>>>>> 4af96888de349fcb6be8d95740f924e77b46f417
             }
         }
     }

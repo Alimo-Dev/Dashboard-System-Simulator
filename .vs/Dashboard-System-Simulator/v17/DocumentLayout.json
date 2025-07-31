@@ -21,6 +21,7 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
@@ -35,6 +36,13 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T06:57:06.217Z",
               "EditorCaption": ""
+=======
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+>>>>>>> 4af96888de349fcb6be8d95740f924e77b46f417
             },
             {
               "$type": "Document",
@@ -44,7 +52,11 @@
               "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
               "ToolTip": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
               "RelativeToolTip": "Dashboard-System-Simulator\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAjAAAAAAAAAA==",
+>>>>>>> 4af96888de349fcb6be8d95740f924e77b46f417
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T06:22:56.55Z",
               "EditorCaption": ""
