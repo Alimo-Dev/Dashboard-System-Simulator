@@ -22,8 +22,8 @@ namespace Dashboard_System_Simulator
             int OprationNumber = 0;
             while (OprationNumber != 3)
             {
-<<<<<<< HEAD
-=======
+                Main_Menu();
+                OprationNumber = int.Parse(Console.ReadLine());
                 switch (OprationNumber)
                 {
                     case 1:
@@ -37,8 +37,8 @@ namespace Dashboard_System_Simulator
                     case 3:
 
                         break;
+
                 }
->>>>>>> 4af96888de349fcb6be8d95740f924e77b46f417
             }
         }
     }
