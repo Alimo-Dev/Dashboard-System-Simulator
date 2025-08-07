@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\",
+  "WorkspaceRootPath": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|c:\\users\\nafir\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|c:\\users\\nafir\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
-              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
-              "ToolTip": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
-              "RelativeToolTip": "Dashboard-System-Simulator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T07:14:49.236Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
@@ -36,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
+              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
+              "ToolTip": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
+              "RelativeToolTip": "Dashboard-System-Simulator\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T07:14:49.236Z",
+              "EditorCaption": ""
             }
           ]
         }
