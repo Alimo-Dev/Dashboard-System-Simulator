@@ -1,0 +1,8 @@
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\obj\Debug\Dashboard-System-Simulator.csproj.AssemblyReference.cache
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\obj\Debug\Dashboard-System-Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\bin\Debug\Dashboard-System-Simulator.exe.config
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\bin\Debug\Dashboard-System-Simulator.exe
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\bin\Debug\Dashboard-System-Simulator.pdb
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\obj\Debug\Dashboard-System-Simulator.exe
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\obj\Debug\Dashboard-System-Simulator.pdb
+C:\Users\Nafir\Desktop\Dashboard-System-Simulator\Dashboard-System-Simulator\obj\Debug\Dashboard-System-Simulator.exe.config

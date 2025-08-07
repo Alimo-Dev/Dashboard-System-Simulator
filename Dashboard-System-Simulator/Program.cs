@@ -14,8 +14,24 @@ namespace Dashboard_System_Simulator
             // Variable and list declarations
             //--------------------------------
 
-            string CurrentUser = null;
-            int InputOpration = 0;
+            List<string> Usernames = new List<string>();
+            List<string> Passwords = new List<string>();
+
+            string CurrentUser = null, user = null, pass = null;
+            int InputOpration = 0, index = 0;
+
+            //--------------------------------
+            // Add basic value
+            //--------------------------------
+
+            Usernames.Add("test");
+            Passwords.Add("1234");
+            Usernames.Add("admin");
+            Passwords.Add("123");
+
+            //--------------------------------
+            // Application
+            //--------------------------------
 
             while (true)
             {
@@ -28,9 +44,12 @@ namespace Dashboard_System_Simulator
                     {
                         case 1:
                             Console.Clear();
+                            Opration.Login(Usernames,Passwords,user,pass,ref CurrentUser,index);
+
                             break;
 
                         case 2:
+                            reg:
                             Console.Clear();
                             break;
 
@@ -42,7 +61,8 @@ namespace Dashboard_System_Simulator
                 }
                 else
                 {
-
+                    Console.Clear();
+                    Menu.ProfileMenu();
                 }
             }
         }
