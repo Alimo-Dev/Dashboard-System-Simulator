@@ -10,6 +10,23 @@ namespace Dashboard_System_Simulator
     {
         static void Main(string[] args)
         {
+            //--------------------------------
+            // Variable and list declarations
+            //--------------------------------
+
+            string CurrentUser = null;
+
+            while (true)
+            {
+                if (CurrentUser == null)
+                {
+
+                }
+                else
+                {
+
+                }
+            }
         }
     }
 }
