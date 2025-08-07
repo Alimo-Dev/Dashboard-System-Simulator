@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\tool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\opration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\opration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
               "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
@@ -31,7 +39,32 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwBoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T07:14:49.236Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tool.cs",
+              "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Tool.cs",
+              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Tool.cs",
+              "ToolTip": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Tool.cs",
+              "RelativeToolTip": "Dashboard-System-Simulator\\Tool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T07:14:11.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Opration.cs",
+              "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Opration.cs",
+              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Opration.cs",
+              "ToolTip": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Opration.cs",
+              "RelativeToolTip": "Dashboard-System-Simulator\\Opration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T07:11:41.948Z",
               "EditorCaption": ""
             },
             {
@@ -40,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Menu.cs",
               "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Menu.cs",
               "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Menu.cs",
