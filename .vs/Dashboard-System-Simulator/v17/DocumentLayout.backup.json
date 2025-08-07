@@ -1,21 +1,10 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|c:\\users\\nafir\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-  "WorkspaceRootPath": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 3a9841f52b01352a3d4854cb3f35806905c83b62
       "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|d:\\personal liberies\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,38 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Menu.cs",
-              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Menu.cs",
-              "ToolTip": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Menu.cs",
-              "RelativeToolTip": "Dashboard-System-Simulator\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T07:26:19.712Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
               "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
               "ToolTip": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
-=======
-              "DocumentMoniker": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
-              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
-              "ToolTip": "D:\\Personal Liberies\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
->>>>>>> 3a9841f52b01352a3d4854cb3f35806905c83b62
               "RelativeToolTip": "Dashboard-System-Simulator\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
