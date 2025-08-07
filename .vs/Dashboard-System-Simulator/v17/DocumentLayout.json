@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|c:\\users\\nafir\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|c:\\users\\nafir\\desktop\\dashboard-system-simulator\\dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23923A6-7AAE-42B5-941F-26105B0F974C}|Dashboard-System-Simulator\\Dashboard-System-Simulator.csproj|solutionrelative:dashboard-system-simulator\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +28,23 @@
               "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Program.cs",
               "ToolTip": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Program.cs",
               "RelativeToolTip": "Dashboard-System-Simulator\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T07:14:49.236Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Menu.cs",
+              "RelativeDocumentMoniker": "Dashboard-System-Simulator\\Menu.cs",
+              "ToolTip": "C:\\Users\\Nafir\\Desktop\\Dashboard-System-Simulator\\Dashboard-System-Simulator\\Menu.cs",
+              "RelativeToolTip": "Dashboard-System-Simulator\\Menu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T06:49:59.478Z",
               "EditorCaption": ""
             }
           ]
