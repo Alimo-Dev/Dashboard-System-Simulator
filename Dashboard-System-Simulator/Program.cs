@@ -16,8 +16,11 @@ namespace Dashboard_System_Simulator
 
             List<string> Usernames = new List<string>();
             List<string> Passwords = new List<string>();
+            List<string> FullNames = new List<string>();
+            List<string> Emails = new List<string>();
+            List<string> PhoneNumbers = new List<string>();
 
-            string CurrentUser = null, user = null, pass = null;
+            string CurrentUser = null, user = null, pass = null, Fname = null, Phone = null, Email = null;
             int InputOpration = 0, index = 0;
 
             //--------------------------------
@@ -26,8 +29,14 @@ namespace Dashboard_System_Simulator
 
             Usernames.Add("test");
             Passwords.Add("1234");
+            FullNames.Add("test testian");
+            Emails.Add("test@gmail.com");
+            PhoneNumbers.Add("0990");
             Usernames.Add("admin");
             Passwords.Add("123");
+            FullNames.Add("admin adminian");
+            Emails.Add("admin@gmail.com");
+            PhoneNumbers.Add("0991");
 
             //--------------------------------
             // Application
@@ -45,11 +54,11 @@ namespace Dashboard_System_Simulator
                         case 1:
                             Console.Clear();
                             Opration.Login(Usernames,Passwords,user,pass,ref CurrentUser,index);
-
                             break;
 
                         case 2:
                             Console.Clear();
+                            Opration.Register(Usernames, Passwords, FullNames, Emails, PhoneNumbers, user, pass, Fname, Email, Phone, ref CurrentUser);
                             break;
 
                         case 3:
