@@ -49,7 +49,6 @@ namespace Dashboard_System_Simulator
                             break;
 
                         case 2:
-                            reg:
                             Console.Clear();
                             break;
 
