@@ -91,7 +91,7 @@ namespace Dashboard_System_Simulator
 
                         case 2:
                             Console.Clear();
-                            Opration.EditProfile(Usernames, Passwords, FullNames, Emails, PhoneNumbers, CurrentUser, index, user, pass, Fname, Email, Phone);
+                            Opration.EditProfile(Usernames, Passwords, FullNames, Emails, PhoneNumbers, ref CurrentUser, index, user, pass, Fname, Email, Phone);
                             break;
 
                         case 5:

@@ -62,7 +62,7 @@ namespace Dashboard_System_Simulator
             Console.Write("Username: ");
             user = Console.ReadLine().ToLower().Trim();
             Console.Write("Full Name: ");
-            fName = Console.ReadLine().ToLower().Trim();
+            fName = Console.ReadLine();
             Console.Write("Password: ");
             pass = Console.ReadLine().Trim();
             Console.Write("Email: ");
@@ -133,8 +133,9 @@ namespace Dashboard_System_Simulator
         // Edit Profile method
         //--------------------------------
 
-        public static void EditProfile(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, string currentUser, int index, string user = "", string pass = "", string fName = "", string email = "", string phone = "")
+        public static void EditProfile(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, ref string currentUser, int index, string user = null , string pass = null , string fName = null , string email = null, string phone = null)
         {
+        Again:
             index = userNames.IndexOf(currentUser);
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("-----Edit Profile Menu-----");
@@ -144,7 +145,7 @@ namespace Dashboard_System_Simulator
             user = Console.ReadLine().ToLower().Trim();
             Console.WriteLine($"Full Name: {fullNames[index]}");
             Console.Write("Full Name: ");
-            fName = Console.ReadLine().ToLower().Trim();
+            fName = Console.ReadLine();
             Console.WriteLine($"Password: {passWords[index]}");
             Console.Write("Password: ");
             pass = Console.ReadLine().Trim();
@@ -154,10 +155,20 @@ namespace Dashboard_System_Simulator
             Console.WriteLine($"Phone Number: {phoneNumbers[index]}");
             Console.Write("Phone Number: ");
             phone = Console.ReadLine().Trim();
+            if (Tool.ToExist(userNames, user) == false)
+            {
+                Tool.AddToList(userNames, passWords, fullNames, emails, phoneNumbers, ref currentUser, index, user, pass, fName, email, phone);
+            }
+            else
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.WriteLine("Your UserName Is Already To Exist");
+                Console.ResetColor();
+                goto Again;
+            }
 
-            Tool.AddToList(userNames, passWords,  fullNames,  emails,  phoneNumbers,  currentUser,  index,  user,  pass,  fName,  email,  phone);
 
-            
 
             //Console.Write("Back(Y/N): ");
             //Console.ResetColor();

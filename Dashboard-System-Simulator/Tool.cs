@@ -13,19 +13,20 @@ namespace Dashboard_System_Simulator
             bool ToExist = false;
             for (int i = 0; i < list.Count; i++)
             {
-                if(value == list[i])
+                if (value == list[i])
                 {
                     ToExist = true;
                     break;
-                }    
+                }
             }
             return ToExist;
         }
 
-        public static void AddToList(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, string currentUser, int index, string user, string pass, string fName, string email, string phone)
+        public static void AddToList(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, ref string currentUser, int index, string user, string pass, string fName, string email, string phone)
         {
-            if(user != null)
+            if (user != null)
             {
+                currentUser = user;
                 userNames[index] = user;
             }
             if (pass != null)
