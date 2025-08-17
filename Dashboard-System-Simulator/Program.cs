@@ -53,7 +53,7 @@ namespace Dashboard_System_Simulator
                     {
                         case 1:
                             Console.Clear();
-                            Opration.Login(Usernames,Passwords,user,pass,ref CurrentUser,index);
+                            Opration.Login(Usernames, Passwords, user, pass, ref CurrentUser, index);
                             break;
 
                         case 2:
@@ -71,7 +71,33 @@ namespace Dashboard_System_Simulator
                 else
                 {
                     Console.Clear();
+                    InputOpration = 0;
                     Menu.ProfileMenu();
+                    InputOpration = int.Parse(Console.ReadLine());
+
+                    switch (InputOpration)
+                    {
+                        case 1:
+                        show:
+                            Console.Clear();
+                            Opration.ShowProfile(Usernames, Passwords, FullNames, Emails, PhoneNumbers, CurrentUser, index);
+                            char Operation = char.Parse(Console.ReadLine());
+                            if (Operation == 'n')
+                            {
+                                goto show;
+                            }
+                            break;
+
+
+                        case 2:
+                            Console.Clear();
+                            break;
+
+                        case 5:
+                            Console.Clear();
+                            Opration.Exit();
+                            break;
+                    }
                 }
             }
         }

@@ -88,7 +88,7 @@ namespace Dashboard_System_Simulator
                 if (Tool.ToExist(emails, email) == true)
                 {
                     Console.Clear();
-                    Console.ForegroundColor= ConsoleColor.DarkRed;
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
                     Console.WriteLine("This Email Has Already Been Registered, Go To The Login Page");
                     Console.ResetColor();
                 }
@@ -109,6 +109,24 @@ namespace Dashboard_System_Simulator
         public static void Exit()
         {
             Environment.Exit(0);
+        }
+
+        //--------------------------------
+        // Show Profile method
+        //--------------------------------
+        public static void ShowProfile(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, string currentUser, int index)
+        {
+            index = userNames.IndexOf(currentUser);
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("-----Show Profile Menu-----");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"Username: {userNames[index]}");
+            Console.WriteLine($"Full Name: {fullNames[index]}");
+            Console.WriteLine($"Password: {passWords[index]}");
+            Console.WriteLine($"Email: {emails[index]}");
+            Console.WriteLine($"Phone Number: {phoneNumbers[index]}");
+            Console.Write("Back(Y/N): ");
+            Console.ResetColor();
         }
     }
 }
