@@ -63,6 +63,7 @@ namespace Dashboard_System_Simulator
 
                         case 3:
                             Console.Clear();
+                            Opration.Exit();
                             break;
                     }
 
