@@ -128,5 +128,39 @@ namespace Dashboard_System_Simulator
             Console.Write("Back(Y/N): ");
             Console.ResetColor();
         }
+
+        //--------------------------------
+        // Edit Profile method
+        //--------------------------------
+
+        public static void EditProfile(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, string currentUser, int index, string user = "", string pass = "", string fName = "", string email = "", string phone = "")
+        {
+            index = userNames.IndexOf(currentUser);
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("-----Edit Profile Menu-----");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"Username: {userNames[index]}");
+            Console.Write("Username: ");
+            user = Console.ReadLine().ToLower().Trim();
+            Console.WriteLine($"Full Name: {fullNames[index]}");
+            Console.Write("Full Name: ");
+            fName = Console.ReadLine().ToLower().Trim();
+            Console.WriteLine($"Password: {passWords[index]}");
+            Console.Write("Password: ");
+            pass = Console.ReadLine().Trim();
+            Console.WriteLine($"Email: {emails[index]}");
+            Console.Write("Email: ");
+            email = Console.ReadLine().ToLower().Trim();
+            Console.WriteLine($"Phone Number: {phoneNumbers[index]}");
+            Console.Write("Phone Number: ");
+            phone = Console.ReadLine().Trim();
+
+            Tool.AddToList(userNames, passWords,  fullNames,  emails,  phoneNumbers,  currentUser,  index,  user,  pass,  fName,  email,  phone);
+
+            
+
+            //Console.Write("Back(Y/N): ");
+            //Console.ResetColor();
+        }
     }
 }

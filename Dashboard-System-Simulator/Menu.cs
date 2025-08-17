@@ -23,7 +23,7 @@ namespace Dashboard_System_Simulator
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("-----Profile Menu-----");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("1.Show Profile \n2.Change Password \n3.Delet Account \n4.Log Out \n5.Exit");
+            Console.WriteLine("1.Show Profile \n2.Edit Profile \n3.Delet Account \n4.Log Out \n5.Exit");
             Console.WriteLine("<<--------------->>");
             Console.Write("Input Opration: ");
             Console.ResetColor();

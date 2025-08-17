@@ -21,5 +21,29 @@ namespace Dashboard_System_Simulator
             }
             return ToExist;
         }
+
+        public static void AddToList(List<string> userNames, List<string> passWords, List<string> fullNames, List<string> emails, List<string> phoneNumbers, string currentUser, int index, string user, string pass, string fName, string email, string phone)
+        {
+            if(user != null)
+            {
+                userNames[index] = user;
+            }
+            if (pass != null)
+            {
+                passWords[index] = pass;
+            }
+            if (email != null)
+            {
+                emails[index] = email;
+            }
+            if (phone != null)
+            {
+                phoneNumbers[index] = phone;
+            }
+            if (fName != null)
+            {
+                fullNames[index] = fName;
+            }
+        }
     }
 }
