@@ -101,5 +101,14 @@ namespace Dashboard_System_Simulator
                 }
             }
         }
+
+        //--------------------------------
+        // Exit method
+        //--------------------------------
+
+        public static void Exit()
+        {
+            Environment.Exit(0);
+        }
     }
 }
